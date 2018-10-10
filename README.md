@@ -1,2 +1,2 @@
-# website
-The Website of Paragliding Stuff
+# Website
+The website of Paragliding Stuff
