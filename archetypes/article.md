@@ -1,8 +1,10 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
-draft = true
+draft = false
 image = ""
 showonlyimage = false
 shopurl = ""
+tags = ["t-shirt", "woman", "design"]
+categories = ["T-Shirt"]
 +++
