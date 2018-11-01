@@ -11,7 +11,7 @@
                         {{ else }}
                         <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon">
                         {{ end }}
-                            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-responsive">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}" class="img-responsive">
                         </a>
                       {{ end }}
                       {{ if eq .Params.showonlyimage true }}
