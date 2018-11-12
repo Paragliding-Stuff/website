@@ -35,7 +35,7 @@ googleAnalytics = "UA-127559969-1"
   [[params.navlinks]]
   name = "Home"
   url = "article/"
-  home = true
+  home = false
 
   [[params.navlinks]]
   name = "About"
