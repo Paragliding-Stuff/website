@@ -35,7 +35,7 @@ googleAnalytics = "UA-127559969-1"
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Home"
-  url = "article/"
+  url = "product/"
   home = false
 
   [[params.navlinks]]
