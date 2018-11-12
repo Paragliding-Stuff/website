@@ -11,9 +11,10 @@ googleAnalytics = "UA-127559969-1"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "sea"
-  description = "A lot of cool paragliding stuff"
+  description = "Cool products about paragliding. Most products are self-designed. The designs are original and something very special for people with this extraordinary hobby. Paragliding is a wonderful way to experience the freedom of the sky and the magic of nature. These feelings are reflected in our products."
   copyright = "&copy;2018 Paragliding Stuff"
   sidebarAbout = [
+    "Paragliding is a wonderful way to experience the freedom of the sky and the magic of nature. These feelings are reflected in our products.",
     "We are a creative illustrator and a computer enthusiast.",
     "We live in Essen, Germany"
   ]
