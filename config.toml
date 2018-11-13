@@ -48,3 +48,7 @@ googleAnalytics = "UA-127559969-1"
 
   [params.social]
   email         = "shop@paragliding-stuff.com"
+
+  [params.opengraph]
+  image="https://rlv.zcache.com/paragliders_into_the_sky_iphone_8_7_case-r4080c87c27ae4736b5c52a14f83658c8_ex79i_1024.jpg?rlvnet=1&max_dim=325"
+  
