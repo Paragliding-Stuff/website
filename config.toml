@@ -10,7 +10,6 @@ DefaultContentLanguage = "en"
 
 [languages]
   [languages.en]
-    baseurl = "https://www.paragliding-stuff.com/"
     title = "Paragliding Stuff"
     weight = 1
     contentDir = "content/en"    
@@ -36,7 +35,6 @@ DefaultContentLanguage = "en"
       url = "contact/"
 
   [languages.de]
-    baseurl = "https://www.paragliding-stuff.de/"
     title = "Paragliding Stuff"
     weight = 2
     contentDir = "content/de"    
@@ -50,16 +48,16 @@ DefaultContentLanguage = "en"
       # Nav links in the side bar
       [[languages.de.params.navlinks]]
       name = "Produkte"
-      url = "product/"
+      url = "de/product/"
       home = false
 
       [[languages.de.params.navlinks]]
       name = "Über uns"
-      url = "about/"
+      url = "de/about/"
 
       [[languages.de.params.navlinks]]
       name = "Kontakt"
-      url = "contact/"
+      url = "de/contact/"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
