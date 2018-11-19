@@ -13,6 +13,7 @@ DefaultContentLanguage = "en"
     title = "Paragliding Stuff"
     weight = 1
     contentDir = "content/en"    
+    baseurl = "https://www.paragliding-stuff.com/"
     [languages.en.params]
       description = "<strong>Cool products about paragliding.</strong> Most products are self-designed. Something very special for people with this extraordinary hobby. Paragliding is a wonderful way to experience the freedom of the sky and the magic of nature. These feelings are reflected in our products."
       sidebarAbout = [
@@ -38,6 +39,7 @@ DefaultContentLanguage = "en"
     title = "Paragliding Stuff"
     weight = 2
     contentDir = "content/de"    
+    baseurl = "https://www.paragliding-stuff.de/"
     [languages.de.params]
       description = "<strong>Coole Produkte zum Thema Gleitschirmfliegen.</strong> Die meisten Produkte sind von uns selbst gestaltet, speziell für Freunde dieses phantastischen Hobbies. Gleitschirmfliegen ist eine wunderbare Möglichkeit, die Freiheit des Himmels und die Magie der Natur zu erleben. Diese Gefühle spiegeln sich in unseren Produkten wider."
       sidebarAbout = [
