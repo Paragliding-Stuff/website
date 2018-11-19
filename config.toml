@@ -50,16 +50,16 @@ DefaultContentLanguage = "en"
       # Nav links in the side bar
       [[languages.de.params.navlinks]]
       name = "Produkte"
-      url = "de/product/"
+      url = "product/"
       home = false
 
       [[languages.de.params.navlinks]]
       name = "Über uns"
-      url = "de/about/"
+      url = "about/"
 
       [[languages.de.params.navlinks]]
       name = "Kontakt"
-      url = "de/contact/"
+      url = "contact/"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
