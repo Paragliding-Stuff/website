@@ -5,7 +5,7 @@ draft = false
 image = "https://image.spreadshirtmedia.com/image-server/v1/products/T1313A1PA2687PT10X5Y2D1018552333FS4474/views/1,width=650,height=650,appearanceId=1/paraglider-above-blue-mountain-range.jpg"
 showonlyimage = false
 shopurl = "https://shop.spreadshirt.com/paragliding-stuff/paragliders+blue+earth-A5bbe2517205176241c9ee070?productType=1313&appearance=1&size=29"
-tags = ["mug", "camping", "outdoor", "design"]
+tags = ["mug", "camping", "outdoor", "design", "paragliding"]
 categories = ["Mug"]
 +++
 

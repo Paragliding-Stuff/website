@@ -5,7 +5,7 @@ draft = false
 image = "https://image.spreadshirtmedia.com/image-server/v1/products/T20A648PA18PT17X41Y27D1018548510FS4728/views/1,width=650,height=650,appearanceId=647/fly-in-the-blue-mountain-landscape-minimalistic-design-for-hand-gliders.jpg"
 showonlyimage = false
 shopurl = "https://shop.spreadshirt.com/paragliding-stuff/hang+glider+blue-A5bbddce91cbf3a39d0ffbb0d?productType=20&appearance=647"
-tags = ["hoodie", "men", "design"]
+tags = ["hoodie", "men", "design","hang gliding"]
 categories = ["Hoodie"]
 weight = 40
 +++
