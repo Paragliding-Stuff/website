@@ -7,4 +7,5 @@ showonlyimage = false
 shopurl = ""
 tags = ["t-shirt", "woman", "design"]
 categories = ["T-Shirt"]
+weight = 50
 +++

@@ -7,6 +7,7 @@ showonlyimage = false
 shopurl = "https://shop.spreadshirt.com/paragliding-stuff/hang+glider+blue-A5bbddce91cbf3a39d0ffbb0d?productType=20&appearance=647"
 tags = ["hoodie", "men", "design"]
 categories = ["Hoodie"]
+weight = 40
 +++
 
 If you’re looking for a top-quality, instant-favorite sweatshirt, you’ve come to the right place! Our Premium Hoodie from the Spreadshirt Collection is everything you could ask for: it’s warm and cozy, heavyweight and roomy, and built to last.
