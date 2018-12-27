@@ -1,12 +1,12 @@
 baseurl = "https://www.paragliding-stuff.com/"
 title = "Paragliding stuff"
 theme = "portfolio"
-languageCode = "en-us"
+languageCode = "de-de"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-127559969-1"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 
 [languages]
   [languages.en]

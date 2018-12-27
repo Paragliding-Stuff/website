@@ -11,7 +11,7 @@ DefaultContentLanguage = "en"
 [languages]
   [languages.en]
     title = "Paragliding Stuff"
-    weight = 10
+    weight = 1
     contentDir = "content/en"    
     baseurl = "https://www.paragliding-stuff.com/"
     [languages.en.params]
