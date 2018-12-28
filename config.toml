@@ -61,6 +61,10 @@ DefaultContentLanguage = "en"
       name = "Kontakt"
       url = "contact/"
 
+      [[languages.de.params.navlinks]]
+      name = "Impressum"
+      url = "impressum/"
+
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
