@@ -25,6 +25,7 @@ rl.question('Shop URL: ', (answer) => {
     var href = img.attr("src");
     var productType = $("div.sprd-detail-info__subheading-title").first().html();
     productType = productType.replace(/&#xE4;/,'ä');
+    productType = productType.replace(/&amp;/, 'und');
     var description = $("div.sprd-detail-product-type__sub-container").first().find("div").first().html();
 
     console.log(productType);
