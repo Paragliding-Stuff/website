@@ -41,6 +41,10 @@ rl.question('Shop URL: ', (answer) => {
     productType = productType.replace(/&#xE4;/, 'ä');
     productType = productType.replace(/&#xFC;/, 'ü');
     productType = productType.replace(/&amp;/, 'und');
+    productType = productType.replace(/&apos;/, '');
+    productType = productType.replace(/&#x2019;/, '');
+
+    
     console.log(productType);
     console.log(text + " -> " + href);
 
