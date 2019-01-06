@@ -1,7 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const readline = require("readline");
-const {exec} = require("child_process");
+const { exec } = require("child_process");
 const replace = require("replace-in-file");
 
 
@@ -11,6 +11,13 @@ const rl = readline.createInterface({
 });
 
 var shopURL;
+var text;
+var href;
+var productType;
+var description;
+var lang;
+var img;
+
 
 rl.question('Shop URL: ', (answer) => {
   shopURL = answer;
@@ -20,18 +27,24 @@ rl.question('Shop URL: ', (answer) => {
     uri: shopURL,
   }, (error, response, body) => {
     var $ = cheerio.load(body);
-    var img = $(".sprd-img-spinner__image").first();
-    var text = img.attr("alt");
-    var href = img.attr("src");
-    var productType = $("div.sprd-detail-info__subheading-title").first().html();
-    productType = productType.replace(/&#xE4;/,'ä');
-    productType = productType.replace(/&amp;/, 'und');
-    var description = $("div.sprd-detail-product-type__sub-container").first().find("div").first().html();
 
+    if (shopURL.indexOf('spreadshirt') > 0) {
+      img = $(".sprd-img-spinner__image").first();
+      productType = $("div.sprd-detail-info__subheading-title").first().html();
+      description = $("div.sprd-detail-product-type__sub-container").first().find("div").first().html();
+    }
+    else {
+      return;
+    }
+    text = img.attr("alt");
+    href = img.attr("src");
+    productType = productType.replace(/&#xE4;/, 'ä');
+    productType = productType.replace(/&#xFC;/, 'ü');
+    productType = productType.replace(/&amp;/, 'und');
     console.log(productType);
     console.log(text + " -> " + href);
-    
-    var lang = "en";
+
+    lang = "en";
     if (shopURL.indexOf(".de/") > 0) {
       lang = "de";
     }
@@ -45,7 +58,7 @@ rl.question('Shop URL: ', (answer) => {
       }
       console.log(`stdout: ${stdout}`);
       console.log(`stderr: ${stderr}`);
-      
+
       const options = {
         files: `../content/${lang}/${filename}`,
         from: [/-shopurl-/, /-imageurl-/, /-description-/],
@@ -53,6 +66,7 @@ rl.question('Shop URL: ', (answer) => {
       }
       replace.sync(options);
     });
+
   });
 
   rl.close();
