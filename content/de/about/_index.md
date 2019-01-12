@@ -3,7 +3,7 @@ date = "2018-10-18T21:05:33+05:30"
 title = "Über uns"
 +++
 
-Wir begeistern uns für schöne Designs und coole Dinge zum Thema Gleitschirmfliegen. Wir sind eine kreative Illustratorin und ein fliegender Programmierer.
+Wir begeistern uns für schöne Designs und coole Dinge zum Thema Gleitschirmfliegen. Wir sind eine kreative Illustratorin und begeisterter Gleitschirmflieger.
 
 
 2018 haben wir begonnen Produkte mit Gleitschirm Motiven zu erstellen. Die Produkte werden von PrintOnDemand Anbietern gefertigt und versendet. Wir arbeiten mit den Anbietern Spreadshirt, Zazzle und Society6 zusammen.
