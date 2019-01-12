@@ -5,7 +5,13 @@ title = "Über uns"
 
 Wir begeistern uns für schöne Designs und coole Dinge zum Thema Gleitschirmfliegen. Wir sind eine kreative Illustratorin und ein fliegender Programmierer.
 
+
+2018 haben wir begonnen Produkte mit Gleitschirm Motiven zu erstellen. Die Produkte werden von PrintOnDemand Anbietern gefertigt und versendet. Wir arbeiten mit den Anbietern Spreadshirt, Zazzle und Society6 zusammen.
+
+
 ## Illustrationen
+
+<img src="/img/dark_orbit.png" alt="Dark Orbit" style="height:130px; float: left; padding: 10px" />
 
 Die Motive unserer Produkte werden mit den unterschiedlichsten Methoden erstellt. In der Regel werden sie klassisch mit Bleistift, Kugelschreiber oder Textmarker gezeichnet. Dann werden sie mit Adobe Capture mit dem iPhone abfotografiert und mit Photoshop koloriert und weiterbearbeitet.
 
