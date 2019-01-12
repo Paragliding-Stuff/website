@@ -3,10 +3,10 @@ date = "2018-10-18T21:05:33+05:30"
 title = "Über uns"
 +++
 
-Wir begeistern uns für schöne Designs und coole Dinge zum Thema Gleitschirmfliegen. Wir sind eine kreative Illustratorin und begeisterter Gleitschirmflieger.
+Wir begeistern uns für schöne Designs und coole Dinge zum Thema Gleitschirmfliegen. Wir sind eine kreative Illustratorin und ein begeisterter Gleitschirmflieger.
 
 
-2018 haben wir begonnen Produkte mit Gleitschirm Motiven zu erstellen. Die Produkte werden von PrintOnDemand Anbietern gefertigt und versendet. Wir arbeiten mit den Anbietern Spreadshirt, Zazzle und Society6 zusammen.
+2018 haben wir begonnen, Produkte mit Gleitschirm-Motiven zu erstellen. Die Produkte werden von PrintOnDemand Anbietern gefertigt und versendet. Wir arbeiten mit den Anbietern Spreadshirt, Zazzle und Society6 zusammen.
 
 
 ## Illustrationen
@@ -19,7 +19,7 @@ Es kommen aber auch andere Methoden und Verfahren zur Anwendung. Manche Motive w
 
 Neben den Paragliding Motive erstellen wir noch weitere Motive, die in anderen Shops und Webseiten zum Kaufen angeboten werden.
 
-Weitere Produkte und Motive von uns findest du unter
+Wenn dir unsere Produkte und Motive gefallen, findest du mehr unter
 
 * https://shop.spreadshirt.de/strandmuschel - Fantastische Meermotive gedruckt auf T-Shirts, Jacken und andere Accessoires
 * https://shop.spreadshirt.de/ms-golliwoog - Natürliche und persönliche Motive
