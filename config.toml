@@ -15,9 +15,7 @@ DefaultContentLanguage = "en"
     [languages.en.params]
       description = "<strong>Cool products about paragliding.</strong> Most products are self-designed. Something very special for people with this extraordinary hobby. Paragliding is a wonderful way to experience the freedom of the sky and the magic of nature. These feelings are reflected in our products."
       sidebarAbout = [
-        "Paragliding is a wonderful way to experience the freedom of the sky and the magic of nature. These feelings are reflected in our products.",
-        "We are a creative illustrator and a computer enthusiast.",
-        "We live in Essen, Germany"
+        "Paragliding is a wonderful way to experience the freedom of the sky and the magic of nature. These feelings are reflected in our products."
       ]
       googleTagManager = "GTM-WCT7BSS"
       # Nav links in the side bar
@@ -42,9 +40,7 @@ DefaultContentLanguage = "en"
     [languages.de.params]
       description = "<strong>Coole Produkte zum Thema Gleitschirmfliegen.</strong> Die meisten Produkte sind von uns selbst gestaltet, speziell für Freunde dieses phantastischen Hobbies. Gleitschirmfliegen ist eine wunderbare Möglichkeit, die Freiheit des Himmels und die Magie der Natur zu erleben. Diese Gefühle spiegeln sich in unseren Produkten wider."
       sidebarAbout = [
-        "Gleitschirmfliegen ist eine wunderbare Möglichkeit, die Freiheit des Himmels und die Magie der Natur zu erleben. Diese Gefühle spiegeln sich in unseren Produkten wider.",
-        "Wir sind eine kreative Illustratorin und ein Computer Freak.",
-        "Wir leben in Essen, Deutschland"
+        "Gleitschirmfliegen ist eine wunderbare Möglichkeit, die Freiheit des Himmels und die Magie der Natur zu erleben. Diese Gefühle spiegeln sich in unseren Produkten wider."
       ]
       googleTagManager = "GTM-MCSX8QK"
       # Nav links in the side bar
