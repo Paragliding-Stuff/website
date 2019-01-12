@@ -19,7 +19,7 @@ Es kommen aber auch andere Methoden und Verfahren zur Anwendung. Manche Motive w
 
 Neben den Paragliding Motive erstellen wir noch weitere Motive, die in anderen Shops und Webseiten zum Kaufen angeboten werden.
 
-Wenn dir unsere Produkte und Motive gefallen, findest du mehr unter
+Wenn dir unsere Produkte und Motive gefallen, findest du mehr unter:
 
 * https://shop.spreadshirt.de/strandmuschel - Fantastische Meermotive gedruckt auf T-Shirts, Jacken und andere Accessoires
 * https://shop.spreadshirt.de/ms-golliwoog - Natürliche und persönliche Motive
