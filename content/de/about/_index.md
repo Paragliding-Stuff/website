@@ -15,7 +15,7 @@ Wir begeistern uns für schöne Designs und coole Dinge zum Thema Gleitschirmfli
 
 Die Motive unserer Produkte werden mit den unterschiedlichsten Methoden erstellt. In der Regel werden sie klassisch mit Bleistift, Kugelschreiber oder Textmarker gezeichnet. Dann werden sie mit Adobe Capture mit dem iPhone abfotografiert und mit Photoshop koloriert und weiterbearbeitet.
 
-Es kommen aber auch andere Methoden und Verfahren zur Anwendung. Manche Motive werden komplett am Rechner erstellt, andere mit Wasserfarbe, Gouache oder Textmarker vollstandig auf Papier gezeichnet und dann eingescannt.
+Es kommen aber auch andere Methoden und Verfahren zur Anwendung. Manche Motive werden komplett am Rechner erstellt, andere mit Wasserfarbe, Gouache oder Textmarker vollständig auf Papier gezeichnet und dann eingescannt.
 
 Neben den Paragliding Motive erstellen wir noch weitere Motive, die in anderen Shops und Webseiten zum Kaufen angeboten werden.
 
