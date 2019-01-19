@@ -55,7 +55,7 @@ rl.question('Shop URL: ', (answer) => {
     var filename = `product/${text}-${productType}.md`;
     filename = filename.replace(/\s|_/g, '-');
 
-    exec(`cd .. && hugo new ${filename} --config config.${lang}.toml`, (error, stdout, stderr) => {
+    exec(`cd .. &&  snap run hugo new ${filename} --config config.${lang}.toml`, (error, stdout, stderr) => {
       if (error) {
         console.error(`exec error: ${error}`);
         return;
