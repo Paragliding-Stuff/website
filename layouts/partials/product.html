@@ -2,51 +2,52 @@
     {{ partial "mobile_nav_toggle.html" . }}
     <div class="grid">
         <div class="row">
-          {{ range .Data.Pages.ByWeight }}
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item" itemscope itemtype="http://schema.org/Product">
-                <meta itemprop="name" content="{{ .Title }}" />
-                <meta itemprop="url" content="{{ .Params.shopurl }}" />
-                <meta itemprop="image" content="{{ .Params.image }}" />
-                <div style="display: none" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                    <meta itemprop="price" content="15.00"></meta>
-                    <meta itemprop="priceCurrency" content="USD" />
-                    <meta itemprop="availability" itemtype="http://schema.org/ItemAvailability" content="http://schema.org/InStock" />
+            {{ range .Data.Pages.ByWeight }}
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                <div style="display:none" itemscope itemtype="http://schema.org/Product">
+                    <meta itemprop="name" content="{{ .Title }}" />
+                    <meta itemprop="url" content="{{ .Params.shopurl }}" />
+                    <meta itemprop="image" content="{{ .Params.image }}" />
+                    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                        <meta itemprop="price" content="15.00">
+                        </meta>
+                        <meta itemprop="priceCurrency" content="USD" />
+                        <meta itemprop="availability" itemtype="http://schema.org/ItemAvailability" content="http://schema.org/InStock" />
+                    </div>
                 </div>
-
-                  <div class="box-masonry">
-                      {{ if and (isset .Params "image") .Params.image }}
-                        {{ if eq .Params.showonlyimage true }}
-                        <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay">
+                <div class="box-masonry">
+                    {{ if and (isset .Params "image") .Params.image }}
+                    {{ if eq .Params.showonlyimage true }}
+                    <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay">
                         {{ else }}
                         <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        {{ end }}
+                            {{ end }}
                             <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}" class="img-responsive">
                         </a>
-                      {{ end }}
-                      {{ if eq .Params.showonlyimage true }}
-                      <div class="box-masonry-hover-text-header">
-                      {{ else }}
-                      <div class="box-masonry-text">
-                      {{ end }}
-                          <h4><a href="{{ .Params.shopurl }}">{{ .Title }}</a></h4>
-                          <div class="box-masonry-description" itemprop="description">
-                            <p>
-                                {{ if .Description }}
-                                  {{ .Description }}
-                                {{ else }}
-                                  {{ .Summary }}
+                        {{ end }}
+                        {{ if eq .Params.showonlyimage true }}
+                        <div class="box-masonry-hover-text-header">
+                            {{ else }}
+                            <div class="box-masonry-text">
                                 {{ end }}
-                            </p>
-                            <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" 
-                                data-pin-media="{{ .Params.image }}"
-                                data-pin-description="{{ .Title }}" >
-                            </a>
-                          </div>
+                                <h4><a href="{{ .Params.shopurl }}">{{ .Title }}</a></h4>
+                                <div class="box-masonry-description" itemprop="description">
+                                    <p>
+                                        {{ if .Description }}
+                                        {{ .Description }}
+                                        {{ else }}
+                                        {{ .Summary }}
+                                        {{ end }}
+                                    </p>
+                                    <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin"
+                                        data-pin-media="{{ .Params.image }}" data-pin-description="{{ .Title }}">
+                                    </a>
+                                </div>
 
-                      </div>
-                  </div>
-              </div>
-          {{ end }}
+                            </div>
+                        </div>
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
-</div>
