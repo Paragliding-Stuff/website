@@ -28,6 +28,10 @@
                                   {{ .Summary }}
                                 {{ end }}
                             </p>
+                            <div style="display: none" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                                <meta itemprop="price">$15.00</meta>
+                                <meta itemprop="priceCurrency" content="USD" />
+                            </div>
                             <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" 
                                 data-pin-media="{{ .Params.image }}"
                                 data-pin-description="{{ .Title }}" >
