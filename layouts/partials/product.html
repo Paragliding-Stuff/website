@@ -4,14 +4,18 @@
         <div class="row">
           {{ range .Data.Pages.ByWeight }}
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item" itemscope itemtype="http://schema.org/Product">
+                <meta itemprop="name" content="{{ .Title }}" />
+                <meta itemprop="url" content="{{ .Params.shopurl }}" />
+                <meta itemprop="image" content="{{ .Params.image }}" />
+            
                   <div class="box-masonry">
                       {{ if and (isset .Params "image") .Params.image }}
                         {{ if eq .Params.showonlyimage true }}
-                        <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay" itemprop="url">
+                        <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay">
                         {{ else }}
-                        <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon" itemprop="url">
+                        <a href="{{ .Params.shopurl }}" title="{{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon">
                         {{ end }}
-                            <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}" class="img-responsive" itemprop="image">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}" class="img-responsive">
                         </a>
                       {{ end }}
                       {{ if eq .Params.showonlyimage true }}
@@ -19,7 +23,7 @@
                       {{ else }}
                       <div class="box-masonry-text">
                       {{ end }}
-                          <h4><a href="{{ .Params.shopurl }}" itemprop="name">{{ .Title }}</a></h4>
+                          <h4><a href="{{ .Params.shopurl }}">{{ .Title }}</a></h4>
                           <div class="box-masonry-description" itemprop="description">
                             <p>
                                 {{ if .Description }}
@@ -29,7 +33,7 @@
                                 {{ end }}
                             </p>
                             <div style="display: none" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                <meta itemprop="price">$15.00</meta>
+                                <meta itemprop="price" content="$15.00"></meta>
                                 <meta itemprop="priceCurrency" content="USD" />
                             </div>
                             <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" 
